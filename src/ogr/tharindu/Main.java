@@ -22,6 +22,27 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) {
         
+        primaryStage.setTitle("code Amir");
+        primaryStage.setWidth(450);
+        primaryStage.setHeight(300);
+        
+        primaryStage.setMinWidth(550);
+        primaryStage.setMinHeight(350);
+        
+        primaryStage.setMaxWidth(750);
+        primaryStage.setMaxHeight(550);
+        
+        primaryStage.setX(50);
+        primaryStage.setY(550);
+        
+        primaryStage.setOpacity(0.5);
+        
+        primaryStage.setResizable(true);
+        
+        
+        
+        
+        
         primaryStage.show();
     }
 
