@@ -5,12 +5,11 @@
  */
 package ogr.tharindu;
 
+
 import javafx.application.Application;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
+import javafx.scene.Group;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.layout.StackPane;
+import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
 /**
@@ -21,8 +20,11 @@ public class Main extends Application {
     
     @Override
     public void start(Stage primaryStage) {
-        
+        Scene sc = new Scene (new Group());
+        sc.setFill(Color.GREEN);
+        primaryStage.setScene(sc);
         primaryStage.show();
+        
     }
 
     /**
